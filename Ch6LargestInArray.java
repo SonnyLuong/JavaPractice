@@ -6,7 +6,7 @@ public class Ch6LargestInArray
 {
 	public static void main(String[] args)
 	{
-		final int LENGTH = 100;
+		final int LENGTH = 10;
 		double[] values = new double[LENGTH];
 		int currentSize = 0;
 		
