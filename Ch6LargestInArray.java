@@ -6,7 +6,7 @@ public class Ch6LargestInArray
 {
 	public static void main(String[] args)
 	{
-		final int LENGTH = 10;
+		final int LENGTH = 100;
 		double[] values = new double[LENGTH];
 		int currentSize = 0;
 		
@@ -16,7 +16,7 @@ public class Ch6LargestInArray
 		Scanner in = new Scanner(System.in);
 		while (in.hasNextDouble() && currentSize < values.length)
 		{
-			values[currentsize] = in.nextDouble();
+			values[currentSize] = in.nextDouble();
 			currentSize++;
 		}
 		//Find the largest value
