@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
   This program reads a sequence of values and prints them, marking the highest value.
 */
-public class LargestInArray
+public class Ch6LargestInArray
 {
 	public static void main(String[] args)
 	{
