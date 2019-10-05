@@ -10,6 +10,7 @@ public class Ch4SentinelDemo
 		int count = 0;
 		double salary = 0;
 		System.out.print("Enter salaries here, -1 to finish: ");
+		Scanner in = new Scanner(System.in);
 		//Process data until the sentinel is entered
 		while (salary != -1)
 		{
