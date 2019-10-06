@@ -19,3 +19,9 @@ for (int i = 0; i < currentSize; i++)
 {
 	System.out.println(values[i]);
 }
+//Here is how you use the enhanced for loop to total up all element in an array
+double total = 0;
+for (double element : values)
+{
+	total = total + element;
+}
