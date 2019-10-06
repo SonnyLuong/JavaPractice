@@ -13,3 +13,9 @@ while(in.hasNextDouble())
 		currentSize++;
 	}
 }
+
+//To process the gathered array elements, use the companion variable - not array length
+for (int i = 0; i < currentSize; i++)
+{
+	System.out.println(values[i]);
+}
