@@ -19,6 +19,7 @@ public class Main
 		System.out.println("Original Array: ");
 		System.out.println(values);
 		printArray(values);
+		
 		//Sum and Average Value
 		double total = 0;
 		for (double element : values)
@@ -33,6 +34,7 @@ public class Main
 		System.out.println("Sum and Average Value: ");
 		printArray(values);
 		System.out.println(total + ", " + average);
+		
 		//Max and Min
 		double largest = values[0];
 		for (int i = 1; i < values.length; i++)
@@ -45,6 +47,7 @@ public class Main
 		System.out.println("Max/Min: ");
 		System.out.println(largest);
 		printArray(values);
+		
 		//Element Separators
 		for (int i = 0; i < values.length; i++)
 		{
@@ -56,6 +59,7 @@ public class Main
 		}
 		System.out.println("Element Separators: ");
 		printArray(values);
+		
 		//Linear Search
 		int searchedValue = 100;
 		int pos = 0;
@@ -73,6 +77,7 @@ public class Main
 		}
 		System.out.println("Linear Search: ");
 		printArray(values);
+		
 		//Removing an Element
 		for (int i = pos + 1; i < currentSize; i++)
 		{
