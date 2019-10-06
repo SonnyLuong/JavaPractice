@@ -21,7 +21,7 @@ for (int i = 0; i < currentSize; i++)
 }
 //Here is how you use the enhanced for loop to total up all element in an array
 double total = 0;
-for (double element : values)
+for (double element : values) // for each element in values
 {
 	total = total + element;
 }
