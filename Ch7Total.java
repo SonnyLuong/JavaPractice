@@ -15,7 +15,7 @@ public class Total
 
            File inputFile = new File(inputFileName);
            Scanner in = new Scanner(inputFile);
-           PrintWriter out = newPrintEriter(outputFileName);
+           PrintWriter out = new PrintEriter(outputFileName);
 
            double total = 0;
            
