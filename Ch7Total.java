@@ -7,7 +7,7 @@ public class Total
 {
      public static void main(String[] args) throws FileNotFoundException
      {
-           Scanner console = new Scaner(System.in);
+           Scanner console = new Scanner(System.in);
            System.out.print("Input File: ");
            String inputFileName = console.next();
            System.out.print("Output file: ");
